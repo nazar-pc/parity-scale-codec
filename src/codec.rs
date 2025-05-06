@@ -48,7 +48,7 @@ use crate::{
 	DecodeFinished, Error,
 };
 
-pub(crate) const MAX_PREALLOCATION: usize = 16 * 1024;
+pub(crate) const MAX_PREALLOCATION: usize = 1024 * 1024;
 const A_BILLION: u32 = 1_000_000_000;
 
 /// Trait that allows reading of data into a slice.
